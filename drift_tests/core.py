@@ -5,6 +5,6 @@ __all__ = ['drift_welcome']
 # Cell
 def drift_welcome(name="a mysterious user"):
     '''
-    This functiontakes a name (string) and returns a personalized greeting!
+    This function takes a name (string) and returns a personalized greeting!
     '''
     return f"Drift says 'Hello!' to {name}"
