@@ -1,8 +1,9 @@
 # Drift Test Library
-> Summary description here.
+> Drift NBDEV Library summary info
 
 
 This file will become your README and also the index of your documentation.
+Testing links: `drift_welcome`
 
 ## Install
 
