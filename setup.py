@@ -10,7 +10,11 @@ cfg = config['DEFAULT']
 
 cfg_keys = 'version description keywords author author_email'.split()
 expected = cfg_keys + "lib_name user branch license status min_python audience language".split()
-for o in expected: assert o in cfg, "missing expected setting: {}".format(o)
+
+for o in expected:
+    assert o in cfg, "missing expected setting: {}".format(o)
+
+    
 setup_cfg = {o:cfg[o] for o in cfg_keys}
 
 if len(sys.argv)>1 and sys.argv[1]=='version':
